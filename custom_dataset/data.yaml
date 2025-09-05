@@ -1,0 +1,13 @@
+train: /workspace/custom_dataset/train/images
+val: /workspace/custom_dataset/valid/images
+test: /workspace/custom_dataset/test/images
+
+nc: 4
+names: ['no helmet', 'no jacket', 'safe', 'unsafe']
+
+roboflow:
+  workspace: ppe-detection-csg9b
+  project: ppe-updated
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ppe-detection-csg9b/ppe-updated/dataset/6
